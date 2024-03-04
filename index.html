@@ -3,9 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+    
+    <title>Bake Something</title>
 </head>
 <body>
+    <header class="sticky">
+        <img src="assets/images/logo-32.png" alt="logo">
+        <nav class="navbar">
+            <ul class="nav-list madimi-one-regular">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Course</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content-header">
+        <h1>Bake Your Dream Dessert</h1>
+        <p>
+            Join our hands-on baking class in Jakarta, master the art of delicious pastries and bread.
+            <br>
+            Book your spot now!
+        </p>
+        <button>Enroll today</button>
+    </section>
+
+    <section>
+        <h1>About Us</h1>
+        <p>
+            Bake Something is a premier baking class located in Jakarta, dedicated to teaching the art of baking
+            to enthusiasts of all skill levels.
+            <br>
+            Our experienced instructors provide hands-on training in fun and supportive environment, ensuring that every student leaves with new skills and delicious creation.
+        </p>
+    </section>
+
+    <section>
+        <h1>Our Programs</h1>
+        <div>
+            <h2>Beginner Baking Workshop</h2>
+            <p>Join our hands-on class to learn basic baking techniques and create delicious treats.</p>
+        </div>
+        <div>
+            <h2>Advanced Cake Decorating</h2>
+            <p>Take you cake decorating skills to the next level with our advanced techniques and designs.</p>
+        </div>
+        <div>
+            <h2>Pastry Chef Masterclass</h2>
+            <p>Become a pastry chef expert by mastering intricate dessert recipes and presentation skills.</p>
+        </div>
+    </section>
     
+    <section class="reviews">
+        "Bake Something is a fantastic baking class! The instructors are skilled and passionate, making the learning experience enjoyable and rewarding.
+        I had a great time and learned so much. Thank you, Bake Something, for the wonderful experience!" - Anika
+    </section>
+
+    <section>
+        Join our baking classes
+        <button>Sign Up</button>
+    </section>
+
+    <section class="gallery">
+        <h1>Our Students Creations</h1>
+    </section>
+
+    <section class="location">
+        <h1>Visit our Kitchen</h1>
+    </section>
+
+    <section>
+        <h1>Get in Touch</h1>
+        <label>Name</label>
+        <input>
+        <label>Email</label>
+        <input>
+        <label>Message</label>
+        <textarea></textarea>
+    </section>
+
+    <footer class="footer-container">
+        <div class="footer-column footer-left">
+            <img class="footer-logo" src="assets/images/logo-192.png" alt="logo">
+            <div class="footer-brand madimi-one-regular">
+                Bake<br>Something
+            </div>
+        </div>
+        <div class="footer-column footer-right">
+            <!-- <div> -->
+                <ul class="social-icon">
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>                    
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-pinterest"></ion-icon>
+                      </a>
+                    </li>
+                </ul>
+            <!-- </div> -->
+            <div class="copyright madimi-one-regular">Baked by Bake Something</div>
+        </div>
+    </footer>
+
+    <!-- ion-icon script -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
