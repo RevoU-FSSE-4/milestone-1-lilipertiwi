@@ -53,3 +53,5 @@ This website was inspired from sample projects, I use AI generator to prepare th
 ![Contact](/assets/images/progress/development-contact.png)
 
 ### 4. Deploy to Cloud Server
+Tutorial: https://lilipertiwi.github.io/Netlify/
+![Deployed!](image.png)
