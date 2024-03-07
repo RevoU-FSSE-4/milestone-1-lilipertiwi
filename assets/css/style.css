@@ -20,7 +20,7 @@ header {
     width: 100%
 }
 
-/* CSS for top navigatio */
+/* CSS for top navigation */
 .navbar {
     display: flex;
     align-items: center;
@@ -168,7 +168,6 @@ li {
 .img-about img {
     max-width: 500px;
     padding: 20px;
-    border-radius: 10px;
 }
 
 .programs {
@@ -360,7 +359,7 @@ li {
 input,
 textarea {
     width: 80%;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -369,12 +368,18 @@ textarea {
 button {
     background-color:rgb(243, 160, 59);
     color: #fff;
-    padding: 10px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
     margin-top: 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     width: fit-content;
+}
+
+.btn-enroll {
+    font-size: 20px;
 }
 
 button:hover {
